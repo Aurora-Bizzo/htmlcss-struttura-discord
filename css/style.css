@@ -40,15 +40,17 @@ header {
 
 /*main*/
 
+/*first section*/
+
 .background-blue {
-    height: 600px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: blue;
 }
 
-.container {
+.small-container {
     width: 60%;
     height: 80%;
 }
@@ -59,23 +61,60 @@ header {
     display: flex;
 }
 
-.column-100 {
+.column-100-pink {
     width: 100%;
     background-color: palevioletred;
     border: 1px dashed black;
 }
 
+/*second and fourth section*/
+
 .background-white {
-    height: 700px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.column-70 {
-
+.container {
+    width: 75%;
+    height: 80%;
 }
 
-.column-30 {
+.column-60 {
+    width: 60%;
+    background-color: rgb(106, 170, 255);
+    border: 1px dashed black;
+}
 
+.column-40 {
+    width: 40%;
+    background-color: rgb(255, 170, 199);
+    border: 1px dashed black;
+}
+
+/*third section*/
+
+.background-gray-1 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+/*fifth section*/
+
+.background-gray-2 {
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.column-100-green {
+    width: 100%;
+    background-color: green;
+    border: 1px dashed black;
 }
